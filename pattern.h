@@ -27,7 +27,7 @@
 #ifdef _WIN32
 #include "winglue.h"
 #else
-#define INLINE inline
+#define INLINE
 #define PRSIZET "z"
 #include <sys/time.h>
 #include <sys/stat.h>

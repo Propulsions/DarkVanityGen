@@ -1,3 +1,17 @@
+
+# New instructions : 
+Open Terminal.
+Install Homebrew if not already done.
+Enter command: brew install pcre pcre++ openssl (or brew update pcre pcre++ openssl if you already have them)
+Enter command: git clone https://github.com/med4u/DashVanityGen.git
+In the Terminal, go inside the DarkVanityGen folder then enter command: make all
+
+To use D…VanityGen (at your own risk of course), simple type this command in your Terminal: ./vanitygen -D "Xdaf" — assuming you're interested in Dash addresses beginning by Xdaf, which you're not. Try ./vanitygen -D "XfLuffy" instead, but this might take longer, i.e. an expected heavy load on your CPU. When you get your private key, you might verify it here for instance (Wallet details > Enter private key > View details) or by some other smarter and faster way that I don't know.
+
+Remember that these characters: I, O and l cannot be used. That's why we have "XfLuffy" instead of "Xfluffy" above. 
+
+
+# Old instructions
 I'd like to present a standalone command line vanity address generator 
 called vanitygen.
 
